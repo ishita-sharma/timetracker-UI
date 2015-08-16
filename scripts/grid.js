@@ -2,7 +2,7 @@
  * Created by misra on 010, 10.08.15.
  */
 function loadCustomer(){
-    document.getElementById("testA").innerHTML = '';
+    /*document.getElementById("testA").innerHTML = '';
     var id = document.getElementById("customerId").value;
     $.ajax({
         url : 'http://localhost:8380/timetracker-web/track/status',
@@ -42,7 +42,8 @@ function loadCustomer(){
         error : function(xhr, status, e){
             console.log(e);
         }
-    });
+    });*/
+    alert("not implemented yet");
 }
 
 function loadTracker(){
